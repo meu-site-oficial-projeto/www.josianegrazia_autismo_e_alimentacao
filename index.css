@@ -9,6 +9,8 @@
     body {       
 
     background: linear-gradient(178deg, rgb(248, 243, 232) 0%, rgb(250, 235, 250) 100%);
+    overflow-y:scroll;
+    overflow-x:hidden;
 }
     
    
