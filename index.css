@@ -9,8 +9,6 @@
     body {       
 
     background: linear-gradient(178deg, rgb(248, 243, 232) 0%, rgb(250, 235, 250) 100%);
-    overflow-y:scroll;
-    overflow-x:hidden;
 }
     
    
@@ -82,7 +80,7 @@
     .imagen img {
         max-width: 1300px; /* Asegura que la imagen no se desborde */
         max-height: 100%; /* Asegura que la imagen no se desborde */
-        margin-left: 350px;
+         margin-left: 250px;
         margin-right:300px ;
         border-radius: 10px;
     }
@@ -109,7 +107,7 @@
         
         .text p{
             text-align:justify;
-            margin-left:350px;
+            margin-left:250px;
             font-family: "Roboto", sans-serif;
             color: rgb(68, 65, 65);
             font-size: 16px;
@@ -123,7 +121,10 @@
             font-weight: normal;
         }
     
-              
+          .botao {
+            margin-right: -25px;
+            margin-left: -160px;
+        }           
 
         button {
             padding-bottom: 20px;
